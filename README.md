@@ -16,7 +16,7 @@ This repository contains R code for analyzing gene expression differences betwee
 **Source**: [GSE14577](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE14577) from Gene Expression Omnibus (GEO)
 - **Platform**: Affymetrix Human Genome U95Av2 Array
 - **Samples**: 8 post-infectious ME/CFS patients vs 7 healthy controls
-- **Publication**: Light AR, White AT, Hughen RW, Light KC. "Moderate exercise increases expression for sensory, adrenergic, and immune genes in chronic fatigue syndrome patients but not in normal subjects." J Pain. 2009;10(10):1099-112.
+- **Publication**: Gow JW, Hagan S, Herzyk P, Cannon C, Behan PO, Chaudhuri A. "A gene signature for post-infectious chronic fatigue syndrome." BMC Med Genomics. 2009 Jun 25;2:38.
 
 ## Requirements
 
