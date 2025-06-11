@@ -1,12 +1,12 @@
-# Post-Infectious CFS Molecular Signature Analysis
+# Post-Infectious ME/CFS Molecular Signature Analysis
 
 ## Overview
 
-This repository contains R code for analyzing gene expression differences between post-infectious Chronic Fatigue Syndrome (CFS) patients and healthy controls. The analysis supports research into the **Pathogen Effector Convergence Theory (PECT)** - the hypothesis that different pathogens target similar cellular pathways, explaining why diverse infections can lead to similar post-infectious syndromes.
+This repository contains R code for analyzing gene expression differences between post-infectious Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) patients and healthy controls. The analysis supports research into the **Pathogen Effector Convergence Theory (PECT)** - the hypothesis that different pathogens target similar cellular pathways, explaining why diverse infections can lead to similar post-infectious syndromes.
 
 ## Key Findings
 
-- **729 significantly altered genes** (3.27% of genome) in CFS patients
+- **729 significantly altered genes** (3.27% of genome) in ME/CFS patients
 - **Strong upregulation bias**: 89% of significant changes are increases
 - **Key affected pathways**: Immune dysfunction, DNA repair, cellular stress response, neurological function
 - **Potential biomarkers**: CXCR4, ATRX, VCAN, SEC63
@@ -15,7 +15,7 @@ This repository contains R code for analyzing gene expression differences betwee
 
 **Source**: [GSE14577](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE14577) from Gene Expression Omnibus (GEO)
 - **Platform**: Affymetrix Human Genome U95Av2 Array
-- **Samples**: 8 post-infectious CFS patients vs 7 healthy controls
+- **Samples**: 8 post-infectious ME/CFS patients vs 7 healthy controls
 - **Publication**: Light AR, White AT, Hughen RW, Light KC. "Moderate exercise increases expression for sensory, adrenergic, and immune genes in chronic fatigue syndrome patients but not in normal subjects." J Pain. 2009;10(10):1099-112.
 
 ## Requirements
@@ -39,30 +39,30 @@ install.packages("ggplot2")
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/cfs-molecular-analysis.git
-   cd cfs-molecular-analysis
+   git clone https://github.com/nitajainofficial/mecfs-molecular-analysis.git
+   cd mecfs-molecular-analysis
    ```
 
 2. **Run the analysis**:
    ```r
-   source("cfs_analysis.R")
+   source("mecfs_analysis.R")
    ```
 
 3. **View results**:
    - Check console output for summary statistics
    - Open generated CSV files for detailed results
-   - View `CFS_volcano_plot.png` for visualization
+   - View `MECFS_volcano_plot.png` for visualization
 
 ## Output Files
 
 | File | Description |
 |------|-------------|
-| `CFS_vs_Control_complete_results.csv` | Full differential expression results |
-| `CFS_upregulated_genes.csv` | List of upregulated gene symbols |
-| `CFS_downregulated_genes.csv` | List of downregulated gene symbols |
-| `CFS_top20_significant_genes.csv` | Top 20 most significant genes with symbols |
-| `CFS_analysis_summary.csv` | Summary statistics |
-| `CFS_volcano_plot.png` | Volcano plot visualization |
+| `MECFS_vs_Control_complete_results.csv` | Full differential expression results |
+| `MECFS_upregulated_genes.csv` | List of upregulated gene symbols |
+| `MECFS_downregulated_genes.csv` | List of downregulated gene symbols |
+| `MECFS_top20_significant_genes.csv` | Top 20 most significant genes with symbols |
+| `MECFS_analysis_summary.csv` | Summary statistics |
+| `MECFS_volcano_plot.png` | Volcano plot visualization |
 
 ## Key Results
 
@@ -135,7 +135,7 @@ GitHub: https://github.com/nitajainofficial/mecfs-molecular-analysis
 ```
 
 **Original dataset citation**:
-Light AR, White AT, Hughen RW, Light KC. Moderate exercise increases expression for sensory, adrenergic, and immune genes in chronic fatigue syndrome patients but not in normal subjects. J Pain. 2009;10(10):1099-112.
+Gow JW, Hagan S, Herzyk P, Cannon C, Behan PO, Chaudhuri A. A gene signature for post-infectious chronic fatigue syndrome. BMC Med Genomics. 2009 Jun 25;2:38. doi: 10.1186/1755-8794-2-38. PMID: 19555476; PMCID: PMC2716361.
 
 ## License
 
@@ -150,10 +150,10 @@ MIT License - see LICENSE file for details.
 
 ## Acknowledgments
 
-- Light et al. for making the original dataset publicly available
+- Gow et al. for making the original dataset publicly available
 - Gene Expression Omnibus (GEO) for data hosting
 - Bioconductor community for analysis tools
 
 ---
 
-**Keywords**: Chronic Fatigue Syndrome, CFS, ME/CFS, post-infectious, gene expression, microarray, PECT, pathogen effector convergence, biomarkers, molecular signature
+**Keywords**: ME/CFS, post-infectious syndrome, gene expression, microarray, PECT, pathogen effector convergence, biomarkers, molecular signature
