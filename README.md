@@ -130,7 +130,7 @@ We welcome contributions! Please:
 If you use this code or findings, please cite:
 
 ```
-Jain, Nita (2025). Post-Infectious CFS Molecular Signature Analysis. 
+Jain, Nita (2025). Post-Infectious ME/CFS Molecular Signature Analysis. 
 GitHub: https://github.com/nitajainofficial/mecfs-molecular-analysis
 ```
 
