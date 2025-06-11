@@ -146,7 +146,7 @@ MIT License - see LICENSE file for details.
 - **Author**: Nita Jain
 - **Email**: nitajain@timelessbiosciences.com
 - **Institution**: Timeless Biosciences
-- **ORCID**:https://orcid.org/0000-0002-4197-937X
+- **ORCID**: https://orcid.org/0000-0002-4197-937X
 
 ## Acknowledgments
 
