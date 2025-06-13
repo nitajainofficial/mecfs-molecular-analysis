@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains R code for analyzing gene expression differences between post-infectious Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) patients and healthy controls. The analysis supports research into the **Pathogen Effector Convergence Theory (PECT)** - the hypothesis that different pathogens target similar cellular pathways, explaining why diverse infections can lead to similar post-infectious syndromes.
+This repository contains R code for analyzing gene expression differences between post-infectious Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) patients and healthy controls. The analysis supports research into the hypothesis that different pathogens target similar cellular pathways, explaining why diverse infections can lead to similar post-infectious syndromes.
 
 ## Key Findings
 
